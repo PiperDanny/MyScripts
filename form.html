@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="css/form-styles.css">
+  </head>
+  <body>
+
+    <!--SIMPLE CONTACT FORM-->
+
+    <form action="#" method="post" id="contact-form" class="row">
+
+      <input type="hidden" name="recipient" value="contact@dannyburns.co" />
+      <input type="hidden" name="subject" value="Contact Form" />
+      <input type="hidden" name="redirect" value="#" />
+
+      <div class="form-row">
+        <p class="help-text" id="nameHelp"></p>
+        <input type="text" id="eName" class="column small-12" name="name" placeholder="Name *"><br>
+      </div>
+
+      <div class="form-row">
+        <p class="help-text" id="emailHelp"></p>
+        <input type="text" id="eEmail" class="column small-12" name="email" placeholder="Email *">
+      </div>
+
+      <div class="form-row">
+        <p class="help-text" id="phoneHelp"></p>
+        <input type="text" id="ePhone" class="column small-12" name="phone" placeholder="Phone *">
+      </div>
+
+      <div class="form-row">
+        <p class="help-text" id="messageHelp"></p>
+        <textarea name="message" id="message" class="column small-12" placeholder="Message *"></textarea>
+      </div>
+
+      <div class="form-row">
+        <button type="submit" id="send-button" name="send" class="button dark expanded">SEND</button>
+      </div>
+
+    </form>
+
+    <!--END CONTACT FORM-->
+
+    <script src="js/formCheck.js"></script>
+  </body>
+</html>
