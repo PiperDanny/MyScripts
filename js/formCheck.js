@@ -1,4 +1,8 @@
 //Form Validation
+//This script validates the information on the simple form
+//Every field on the form is checked for errors before being allowed to be submitted.
+
+
 var contactForm = document.getElementById("contact-form");
 function checkForm() {
 
